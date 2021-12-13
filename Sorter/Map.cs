@@ -1,4 +1,6 @@
-﻿namespace Sorter
+﻿using System.Collections.Generic;
+
+namespace Sorter
 {
     public static class Map
     {
@@ -7,7 +9,7 @@
             new DirectorySettings
             {
                 TargetDirectoryName = "Целевая папка 1",
-                Tags = new List<string>{"tag1", "tag2", "tag3"}
+                Tags = new List<string>{ "Папка для перемещения", "tag2", "tag3"}
             },
             new DirectorySettings
             {

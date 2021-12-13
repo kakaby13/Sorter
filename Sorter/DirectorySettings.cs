@@ -1,4 +1,6 @@
-﻿namespace Sorter
+﻿using System.Collections.Generic;
+
+namespace Sorter
 {
     public class DirectorySettings
     {
